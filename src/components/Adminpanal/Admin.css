@@ -1,0 +1,61 @@
+.contend{
+    width:80vw;
+    height:100vh;
+    overflow-y:scroll ;
+    margin-left: 20vw;
+  }
+  .h1{
+    font-size:35px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .li{
+    margin-top: 5vh;
+  }
+  .sidebar{
+  
+    position: fixed;
+    width:20vw;
+    height: 100vh;
+    background: darkslategrey;
+    color:aliceblue;
+    list-style-type: none;
+    font-size: x-large;
+  }
+ 
+  .sb{
+    border-radius: 5px;
+    width:100%;
+    margin-top: 2vh;
+    
+  }
+  .sb:hover{
+    background:aqua;
+    color:red;
+  }
+  #table{
+    border: 1px solid black;
+    padding:15px;
+    width:78vw;
+  }
+  .AINDEX{
+    margin-left: 20vw;
+    width:80vw;
+    height:100vh;
+    text-align:center;
+    text-justify: center;
+    color:rgb(232, 65, 129);
+    background: url("https://getwallpapers.com/wallpaper/full/9/7/2/1490275-beautiful-nike-shoe-wallpaper-2400x1504-for-ipad.jpg");
+  }
+  .btnadminpro{
+    display: flex;
+    justify-content: space-around;
+    background:blue;
+  }
+  .btnadminpro>button{
+    background: red;
+  }
+  thead{
+    font: bold;
+  }
